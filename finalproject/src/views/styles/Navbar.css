@@ -3,9 +3,12 @@ background-color: rgb(202, 85, 85,0) !important;
 box-shadow:  none !important;
 font-family: 'Arimo', sans-serif;
 font-weight: bold;
+
 }
-nav:hover{
-    background-color: none;
+nav ul a:hover{
+    background-color: rgba(0,0,0,0) !important;
+    color: rgb(205, 205, 206) !important;
+    
 }
 
 nav ul{

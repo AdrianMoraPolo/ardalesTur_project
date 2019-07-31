@@ -11,7 +11,6 @@ const App: React.FC = () => {
     <div className="background">
       <BrowserRouter>
         <Home />
-        <Route path="/booking" exact component={Booking} />
         <Redirect to="/" />
       </BrowserRouter>
       <script type="text/javascript" src="js/materialize.min.js" />

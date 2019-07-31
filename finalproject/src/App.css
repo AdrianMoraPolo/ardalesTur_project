@@ -1,7 +1,11 @@
-.background{background-image: url(./img/home.jpg);
+.background {
+  background-image: url(./img/home.jpg);
   background-size: cover; /* Resize the background image to cover the entire container */
   background-repeat: no-repeat;
   height: 100vh;
   background-position-y: 60%;
 }
 
+body {
+  overflow: hidden;
+}
