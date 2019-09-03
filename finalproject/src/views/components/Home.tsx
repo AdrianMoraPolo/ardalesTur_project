@@ -27,6 +27,14 @@ const Home: React.FC = () => {
 
   const toggleVisibility = () => setVisible(v => !v);
 
+
+  //POSE HACER GRANDE Y PEQUEÑO CUANDO SE SELECCIONA
+  // const Box = posed.div({
+  //   pressable: true,
+  //   init: { scale: 1 },
+  //   press: { scale: 0.8 }
+  // });
+
   return (
     <div className="All">
       <div className="Navbar">
@@ -45,7 +53,9 @@ const Home: React.FC = () => {
           </PoseGroup>
           {/* <Cluck className="<BookingButton/>" /> */}
           {/* {position && <Box className="Booking" />} */}
-          <BookingButton onClick={toggleVisibility}>RESERVAR</BookingButton>
+
+         
+          <BookingButton className="Box" onClick={toggleVisibility}>RESERVAR</BookingButton>
           
         </div>
       </div>
